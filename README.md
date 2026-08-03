@@ -30,19 +30,19 @@ Exploratory projects applying regression and classification trees, including fea
 
 ### 📈 COVID-19 Forecasting
 Time series forecasting of daily infections in Mexico using LSTM neural networks.  
-[View Project](./PronosticoCovid-19_EHG)
+[View Project](./PronosticoCOVID19)
 
 ### 🌍 Air Quality Analysis
 Analysis of air quality parameters using Mexico’s public API (SINAICA), with interactive geographic visualizations.  
-[View Project](./calidadaire_EHG)
+[View Project](./Prueba%20Calidad%20del%20Aire)
 
 ### ⚙️ MapReduce Text Analysis
 Implementation of MapReduce functions with PySpark for distributed text analytics.  
-[View Project](./mapReduce_EHG)
+[View Project](./MapReduce)
 
 ### 🤖 Sentiment Analysis with Gemini API
 Automated classification of survey responses into Positive, Negative, and Neutral categories using Google Gemini API.  
-[View Project](./script_EHG)
+[View Project](./Prueba-Gemini-API)
 
 ---
 
