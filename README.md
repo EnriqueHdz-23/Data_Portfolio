@@ -30,7 +30,7 @@ Exploratory projects applying regression and classification trees, including fea
 
 ### 📈 COVID-19 Forecasting
 Time series forecasting of daily infections in Mexico using LSTM neural networks.  
-[View Project](./PronosticoCOVID19)
+[View Project](./Proyecto%20COVID19)
 
 ### 🌍 Air Quality Analysis
 Analysis of air quality parameters using Mexico’s public API (SINAICA), with interactive geographic visualizations.  
