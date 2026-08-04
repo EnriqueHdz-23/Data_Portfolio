@@ -62,6 +62,10 @@ Dimensionality reduction experiments with PCA and SVD, applied to structured dat
 Integration of SQL queries in Jupyter notebooks using pandas and SQLite, combined with probability modeling.  
 [View Project](./Pruebas%20SQL)
 
+### 📊 ML and Series
+Projects combining **Machine Learning models** with pandas series operations, including Decision Trees, Naive Bayes, and attribute methods for handling non-unique indices.  
+[View Project](./ML%20y%20Series)
+
 ---
 
 ## Contact
