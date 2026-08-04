@@ -1,0 +1,25 @@
+Year,Movie,Bond Actor,Director,Depicted Film Loc,Bond Car,Bond_Girl_Nat,US_Gross,World Gross,Budget,Film_Length,Avg_User_IMDB,Avg_User_Rtn_Tom
+1962,Dr. No,Sean Connery,Terence Young,"Great Britain, Jamaic",Sunbeam,"Swiss, English, English",16067035,59567035,1000,110,7.3,7.7
+1963,From Russia with Love,Sean Connery,Terence Young,"United Kingdom, Great Britain, Turkey, Croatia, Serbia, Italy",Bently,"English, Italian, English, Israeli",24800000,78900000,2000,115,7.5,8
+1964,Goldfinger,Sean Connery,Guy Hamilton,"United States, Great Britain, Switzerland",Aston Martin,"Serbian, English",51100000,124900000,3000,110,7.8,8.4
+1965,Thunderball,Sean Connery,Terence Young,"France, Great Britain, Bahamas, United States",Aston Martin,"French, Italian, Bahamian",63600000,141200000,9000,130,7,6.8
+1967,You Only Live Twice,Sean Connery,Lewis Gilbert,"United States, Russia, Kazakhstan, Norway, Japan",Toyota,"Japanese, Chinese, German",43100000,111600000,9500,117,6.9,6.3
+1969,On Her Majesty's Secret Service,George Lazenby,Peter R. Hunt,"Portugal, Great Britain, Switzerland",Mercury,"English, English, Hungarian",22800000,82000000,8000,142,6.8,6.7
+1971,Diamonds Are Forever,Sean Connery,Guy Hamilton,"Japan, Egypt, France, South Africa, Great Britain, Netherlands, United States, Mexico",Ford,American,43800000,116000000,7200,120,6.7,6.3
+1973,Live and Let Die,Roger Moore,Guy Hamilton,"United States, Great Britain, Jamaica",AMC,"English, American, English",35400000,161800000,7000,121,6.8,5.9
+1974,The Man with the Golden Gun,Roger Moore,Guy Hamilton,"Great Britain, Lebanon, Portugal, Thailand",AMC,"Sweedish, French",21000000,97600000,7000,125,6.7,5.1
+1977,The Spy Who Loved Me,Roger Moore,Lewis Gilbert,"Austria, Russia, Great Britain, Egypt, Italy",Lotus,"American, English, Bosnian",46800000,185400000,14000,125,7.1,6.8
+1979,Moonraker,Roger Moore,Lewis Gilbert,"Great Britain, United States, Italy, Brazil, Russia",Lotus,"American, French, Moroccan",70300000,210300000,31000,126,6.2,5.7
+1981,For Your Eyes Only,Roger Moore,John Glen,"Great Britain, Russia, Spain, Italy, Greece, Albania",Citroën,"French, Australian",54800000,195300000,28000,127,6.8,6.3
+1983,Octopussy,Roger Moore,John Glen,"Great Britain, India, Russia, Germany",Bajaj,"Sweedish, English",67900000,187500000,27500,131,6.5,5.3
+1985,A View to a Kill,Roger Moore,John Glen,"Russia, Great Britain, France, United States",Rolls Royce,"American, Jamaican, Sweedish, Nigerian",50327960,152627960,30000,131,6.2,4.7
+1987,The Living Daylights,Timothy Dalton,John Glen,"Gibraltar, Great Britain, Slovakia, Austria, Morocco, Afghanistan, Pakistan",Rolls Royce,"Dutch, American",51185000,191200000,40000,130,6.7,6.3
+1989,License to Kill,Timothy Dalton,John Glen,"United States, Bahamas, Great Britain",Aston Martin,"American, American",34667015,156167015,42000,133,6.5,6
+1995,GoldenEye,Pierce Brosnan,Martin Campbell,"Russia, Monaco, France, England, United States, Cuba",BMW,"Polish, Dutch",106429941,356429941,60000,130,7.2,6.9
+1997,Tomorrow Never Dies,Pierce Brosnan,Roger Spottiswoode,"Russia, England, Germany, Vietnam",Aston Martin,"Malaysian, American, Danish",125304276,339504276,110000,119,6.4,6
+1999,The World Is Not Enough,Pierce Brosnan,Michael Apted,"Spain, England, Scotland, Kazakhstan, Azerbaijan, Turkey, North Korea, South Korea",BMW,"American, French, English",126930660,361730660,135000,128,6.3,5.7
+2002,Die Another Day,Pierce Brosnan,Lee Tamahori,"South Korea, Hong Kong, Cube, England, Iceland",Aston Martin,"American, Filipino",160942139,431942139,142000,133,6,6.1
+2006,Casino Royale,Daniel Craig,Martin Campbell,"Czech Republic, Pakistan, Uganda, Madagascar, Bahamas, England, United States, Monenegro, Italy",Aston Martin,"French, Italian",167365000,596365000,102000,144,7.9,7.8
+2008,Quantum of Solace,Daniel Craig,Marc Forster,"Italy, England, Haiti, Austria, Bolivia, Russia",Aston Martin,English,169368427,591692078,230000,106,6.7,6.1
+2012,Skyfall,Daniel Craig,Sam Mendes,"Turkey, England, China, Macau, Japan, Scotland",Aston Martin,"French, Greek, English",304360277,1108561108,200000,143,7.8,8.2
+2015,Spectre,Daniel Craig,Sam Mendes,"Mexico, England, Italy, Austria, Morocco, Vatican City",Aston Martin,"French, Italian, Mexican",200074175,879620923,245000,148,6.8,6.4
