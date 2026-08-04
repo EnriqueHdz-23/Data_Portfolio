@@ -17,6 +17,8 @@ This repository is a **portfolio of Jupyter Notebooks** showcasing projects in:
 - **Neural Networks** – Experiments with TensorFlow/Keras for classification and forecasting.  
 - **Data Cleaning & Analysis** – Preprocessing of public datasets, correlation analysis, clustering.  
 - **Applied Projects** – Air quality analysis with Mexico’s public API, MapReduce text analysis, sentiment classification using Gemini API.  
+- **Mathematical and Statistical Methods** – PCA, SVD, TF-IDF, and date/time operations.  
+- **SQL Integration** – Queries and probability modeling with Python and SQLite.  
 
 Each project folder contains notebooks and a dedicated README with objectives, datasets, libraries, and main results.
 
@@ -26,7 +28,7 @@ Each project folder contains notebooks and a dedicated README with objectives, d
 
 ### 🌳 Decision Trees
 Exploratory projects applying regression and classification trees, including feature importance analysis and model visualization.  
-[View Project](./Arboles%20de%20Decisión)
+[View Project](./ML%20y%20Series)
 
 ### 📈 COVID-19 Forecasting
 Time series forecasting of daily infections in Mexico using LSTM neural networks.  
@@ -43,6 +45,22 @@ Implementation of MapReduce functions with PySpark for distributed text analytic
 ### 🤖 Sentiment Analysis with Gemini API
 Automated classification of survey responses into Positive, Negative, and Neutral categories using Google Gemini API.  
 [View Project](./Prueba-Gemini-API)
+
+### 🧮 TF-IDF Metric
+Example of text vectorization using TF-IDF, extended with Naive Bayes classification for sentiment analysis.  
+[View Project](./Metrica%20TF-IDF)
+
+### 📅 Date Operations
+Experiments with Python’s datetime, pandas, and matplotlib for handling and visualizing temporal data.  
+[View Project](./Operaciones%20con%20Fechas)
+
+### 🔬 PCA and SVD
+Dimensionality reduction experiments with PCA and SVD, applied to structured data and image datasets.  
+[View Project](./PCA%20and%20SVD)
+
+### 🗄️ SQL with Python
+Integration of SQL queries in Jupyter notebooks using pandas and SQLite, combined with probability modeling.  
+[View Project](./Pruebas%20SQL)
 
 ---
 
