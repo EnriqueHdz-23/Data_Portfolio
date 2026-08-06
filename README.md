@@ -19,8 +19,7 @@ This repository is a **portfolio of Jupyter Notebooks** showcasing projects in:
 - **Applied Projects** – Air quality analysis with Mexico’s public API, MapReduce text analysis, sentiment classification using Gemini API.  
 - **Mathematical and Statistical Methods** – PCA, SVD, TF-IDF, and date/time operations.  
 - **SQL Integration** – Queries and probability modeling with Python and SQLite.
-- **Dashboards** – Interactive financial and analytical dashboards built with Python, Plotly, and API integration.  
-  Includes simple dashboards (candlestick charts with yfinance) and complex dashboards (predictive models for wine quality and California housing).  
+- **Dashboards** – Includes simple dashboards (candlestick charts with yfinance) and complex dashboards (predictive models for wine quality and California housing).  
 
 
 Each project folder contains notebooks and a dedicated README with objectives, datasets, libraries, and main results.
