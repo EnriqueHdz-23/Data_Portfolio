@@ -66,6 +66,13 @@ Integration of SQL queries in Jupyter notebooks using pandas and SQLite, combine
 Projects combining **Machine Learning models** with pandas series operations, including Decision Trees, Naive Bayes, and attribute methods for handling non-unique indices.  
 [View Project](./ML%20y%20Series)
 
+### 📉 Dashboards
+Projects focused on building **financial and analytical dashboards** with Python, Plotly, and API integration.  
+Includes both simple and advanced dashboards for interactive data exploration.  
+
+- [View Simple Dashboards](./Simples)  
+- [View Complex Dashboards](./Complejos)  
+
 ---
 
 ## Contact
