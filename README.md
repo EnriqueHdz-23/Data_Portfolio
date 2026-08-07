@@ -72,7 +72,7 @@ Projects combining **Machine Learning models** with pandas series operations, in
 Projects focused on building **financial and analytical dashboards** with Python, Plotly, and API integration.  
 Includes both simple and advanced dashboards for interactive data exploration.  
 
-- [View Simple Dashboards](./Dashboards/Simples)  
+- [View Simple Dashboards](./Dashboards/Sencillos)  
 - [View Complex Dashboards](./Dashboards/Complejos)  
 
 ---
