@@ -1,6 +1,58 @@
-# SQL Integration and Probability Modeling in Python
+# SQL Dashboards and Probability Modeling in Python
 
-This project demonstrates the integration of **SQL queries within Python notebooks** using pandas and SQLite, combined with probability modeling through statistical distributions. The focus is on handling relational datasets, querying them efficiently, and applying statistical analysis to real-world scenarios.
+This portfolio section demonstrates the integration of **SQL queries within Python notebooks** using both **SQLite** and **DuckDB**, combined with statistical modeling and machine learning.  
+The focus is on handling relational datasets, performing analytical queries, and applying advanced techniques such as **predictive maintenance dashboards**, **exchange rate analysis**, and **probability modeling of customer arrivals**.  
+These projects highlight versatile workflows that combine **SQL engines, Python, and data science methods** for real-world scenarios.
+
+---
+
+## Predictive Maintenance Dashboard with Analytical SQL (DuckDB) + Machine Learning
+
+### Objective
+Develop an interactive dashboard for **predictive maintenance** using industrial sensor data, combining **DuckDB SQL feature engineering** with a Random Forest Classifier to estimate machine failure probability.
+
+### Libraries Used
+- pandas, numpy  
+- duckdb (analytical SQL engine)  
+- scikit-learn (RandomForestClassifier, train_test_split, LabelEncoder, accuracy_score)  
+- plotly (express, graph_objects, io)  
+- ipywidgets (widgets, display)  
+- requests, io  
+- warnings  
+
+### Dataset
+**AI4I 2020 Predictive Maintenance Dataset** — 10,000 synthetic records simulating manufacturing processes, including process variables (air temperature, process temperature, rotational speed, torque, tool wear) and associated failure events.
+
+### Main Results
+- Feature engineering performed entirely with **SQL queries in DuckDB** (derivative variables, aggregations, descriptive statistics).  
+- Random Forest Classifier trained once and cached for real-time predictions.  
+- Interactive dashboard with sliders to adjust operational parameters and view predicted failure probability.  
+- Demonstrates modern workflows combining **SQL OLAP engines** with Python and ML.  
+
+---
+
+## Interactive SQL Dashboard for Exchange Rates
+
+### Objective
+Build an interactive dashboard to analyze **currency exchange rates** using SQL queries with SQLite, integrated into Jupyter Notebook.
+
+### Libraries Used
+- pandas, numpy  
+- sqlite3 (SQL engine)  
+- plotly (graph_objects, io)  
+- ipywidgets (widgets, display)  
+- requests  
+- datetime (date, timedelta)  
+- warnings  
+
+### Dataset
+Exchange rate data retrieved via **public API requests**, stored and queried with SQLite for analysis and visualization.
+
+### Main Results
+- Implemented SQL queries with **window functions** for time-based analysis of exchange rates.  
+- Interactive dashboard with Plotly visualizations embedded in Jupyter Notebook.  
+- Demonstrated integration of **SQL + Python** for financial data exploration.  
+- Showcased practical use of SQLite for lightweight analytical tasks.  
 
 ---
 
