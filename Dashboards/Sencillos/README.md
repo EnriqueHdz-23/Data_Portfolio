@@ -4,6 +4,34 @@ This project demonstrates the creation of **simple financial dashboards** in Jup
 
 ---
 
+## Strategic Raw Materials Dashboard — Automotive & EV Industry
+
+### Objective
+Create an interactive dashboard to monitor **strategic raw materials** relevant to the automotive and electric vehicle industry, using financial data from Yahoo Finance.
+
+### Libraries Used
+- pandas, numpy  
+- yfinance (financial data API)  
+- plotly (graph_objects, io)  
+- ipywidgets (widgets, display)  
+- warnings  
+
+### Dataset
+Data retrieved dynamically from **Yahoo Finance API** for key materials:  
+- Copper (HG=F) – Wiring / EV motors  
+- Aluminum (ALI=F) – Lightweight chassis  
+- Palladium (PA=F) – Gasoline catalysts  
+- Platinum (PL=F) – Diesel catalysts  
+- Lithium ETF (LIT) – Batteries  
+
+### Main Results
+- Implemented caching to optimize API queries and avoid redundant requests.  
+- Interactive dashboard with candlestick charts and volume analysis for multiple commodities.  
+- Real-time monitoring of price trends for strategic materials in the automotive and EV sector.  
+- Enhanced error handling for robust API integration.  
+
+---
+
 ## Dashboard-Simple_EHG
 
 ### Objective
@@ -57,3 +85,4 @@ Supports multiple tickers and customizable visualization options.
 - **API integration** with `yfinance` enables real-time financial data analysis.  
 - **Interactive dashboards** built with Plotly and ipywidgets enhance usability and exploration.  
 - These projects demonstrate practical skills in **data visualization, financial analytics, and dashboard development**.  
+
