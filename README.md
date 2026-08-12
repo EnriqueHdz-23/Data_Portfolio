@@ -73,7 +73,8 @@ Projects focused on building **financial and analytical dashboards** with Python
 Includes both simple and advanced dashboards for interactive data exploration.  
 
 - [View Simple Dashboards](./Dashboards/Sencillos)  
-- [View Complex Dashboards](./Dashboards/Complejos)  
+- [View Complex Dashboards](./Dashboards/Complejos)
+- [View Automotive Dashboards](./Dashboards/Industria%Automotriz)  
 
 ---
 
