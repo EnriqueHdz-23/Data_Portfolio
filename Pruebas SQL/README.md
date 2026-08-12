@@ -3,6 +3,76 @@
 This portfolio section demonstrates the integration of **SQL queries within Python notebooks** using both **SQLite** and **DuckDB**, combined with statistical modeling and machine learning.  
 The focus is on handling relational datasets, performing analytical queries, and applying advanced techniques such as **predictive maintenance dashboards**, **exchange rate analysis**, and **probability modeling of customer arrivals**.  
 These projects highlight versatile workflows that combine **SQL engines, Python, and data science methods** for real-world scenarios.
+- **SQL Integration (Automotive Examples)** – Analytical dashboards using SQLite and DuckDB applied to automotive scenarios.  
+  Includes **Predictive Maintenance**, **Exchange Rate Analysis**, **Customer Arrival Modeling**, plus new examples for **Fleet Management & Spare Parts Logistics** and **Profitability by Model (Costs vs. Sale Price)**.  
+
+# Automotive Industry SQL Dashboards
+
+This project demonstrates the use of **SQL queries within Python notebooks** applied to automotive industry scenarios.  
+The focus is on building synthetic but realistic datasets, executing analytical queries with **CTEs and window functions**, and integrating results into interactive dashboards with Plotly and ipywidgets.  
+These examples highlight how SQL can be combined with Python to model **fleet management, spare parts logistics, and profitability analysis** in automotive contexts.
+
+---
+
+## Fleet Management and Spare Parts Logistics
+
+### Objective
+Model a network of dealerships with rental fleets, maintenance history, and spare parts inventory using **SQLite**.  
+Perform analytical queries to evaluate monthly sales, maintenance events, and inventory risks.
+
+### Libraries Used
+- pandas, numpy  
+- sqlite3  
+- plotly (graph_objects, io)  
+- ipywidgets (interact, widgets, display)  
+
+### Dataset
+Synthetic dataset generated with fixed seed (`np.random.seed(42)`), ensuring reproducibility.  
+Tables include:  
+- `concesionarios` – dealership catalog by region  
+- `ventas_mensuales` – monthly rental income and units  
+- `historial_mantenimiento` – maintenance events by model and dealership  
+- `inventario_repuestos` – spare parts stock, lead time, and consumption  
+
+### Main Results
+- Built reproducible SQLite database with multiple tables.  
+- Applied **CTEs and window functions** (`LAG`, `RANK`) for analytical queries.  
+- Interactive dashboard for exploring fleet performance and spare parts logistics.  
+
+---
+
+## Profitability by Model (Costs vs. Sale Price)
+
+### Objective
+Analyze profitability by combining spare parts costs and sale prices through **SQL joins** and caching mechanisms.
+
+### Libraries Used
+- pandas, numpy  
+- sqlite3  
+- plotly (graph_objects, io)  
+- ipywidgets (widgets, display)  
+- functools.lru_cache  
+
+### Dataset
+Synthetic dataset modeling 5 brands × 5 models with quarterly costs and sale prices.  
+Tables include:  
+- `modelos` – brand/model catalog  
+- `costos_repuestos` – component costs by model and period  
+- `precios_venta` – list price and average discount by model, period, and region  
+
+### Main Results
+- Implemented parameterized queries with caching (`lru_cache`) to optimize performance.  
+- Combined costs and prices via SQL joins to calculate margins.  
+- Interactive dashboard with chained dropdowns (brand → model).  
+- Demonstrated profitability analysis with SQL-driven workflows.  
+
+---
+
+## Key Takeaways
+- **SQL integration with Python** enables efficient analytical queries on synthetic automotive datasets.  
+- Dashboards provide insights into **fleet management, spare parts logistics, and profitability analysis**.  
+- These projects showcase practical skills in **SQL feature engineering, interactive visualization, and industry-specific modeling**.  
+
 
 ---
 
