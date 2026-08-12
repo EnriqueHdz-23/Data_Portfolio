@@ -3,7 +3,7 @@
 This portfolio section demonstrates the integration of **SQL queries within Python notebooks** using both **SQLite** and **DuckDB**, combined with statistical modeling and machine learning.  
 The focus is on handling relational datasets, performing analytical queries, and applying advanced techniques such as **predictive maintenance dashboards**, **exchange rate analysis**, and **probability modeling of customer arrivals**.  
 These projects highlight versatile workflows that combine **SQL engines, Python, and data science methods** for real-world scenarios.
-- **SQL Integration (Automotive Examples)** – Analytical dashboards using SQLite and DuckDB applied to automotive scenarios.  
+**SQL Integration (Automotive Examples)** – Analytical dashboards using SQLite and DuckDB applied to automotive scenarios.  
   Includes **Predictive Maintenance**, **Exchange Rate Analysis**, **Customer Arrival Modeling**, plus new examples for **Fleet Management & Spare Parts Logistics** and **Profitability by Model (Costs vs. Sale Price)**.  
 
 # Automotive Industry SQL Dashboards
