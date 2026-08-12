@@ -74,7 +74,7 @@ Includes both simple and advanced dashboards for interactive data exploration.
 
 - [View Simple Dashboards](./Dashboards/Sencillos)  
 - [View Complex Dashboards](./Dashboards/Complejos)
-- [View Automotive Dashboards](./Dashboards/Industria%Automotriz)  
+- [View Automotive Dashboards](./Dashboards/Industria%20Automotriz)  
 
 ---
 
