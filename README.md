@@ -34,7 +34,7 @@ Project focused on building a **high‑fidelity PDF editor** in Python, ensuring
 
 ### 🚗 Vehicle Testing Control Center
 Simulation of a **vehicle testing control center**, generating synthetic data for braking performance and fuel economy analysis with interactive dashboards.  
-[View Project](./Centro%20de%20Pruebas%20Vehiculares)
+[View Project](./Control%20de%20Pruebas%20Vehiculares)
 
 ### 🌳 Decision Trees
 Exploratory projects applying regression and classification trees, including feature importance analysis and model visualization.  
