@@ -28,6 +28,14 @@ Each project folder contains notebooks and a dedicated README with objectives, d
 
 ## Featured Projects
 
+### 📑 PDF Editor
+Project focused on building a **high‑fidelity PDF editor** in Python, ensuring that fonts, styles, and layouts are preserved across edits.  
+[View Project](./Proyecto%20Editor%20PDF)
+
+### 🚗 Vehicle Testing Control Center
+Simulation of a **vehicle testing control center**, generating synthetic data for braking performance and fuel economy analysis with interactive dashboards.  
+[View Project](./Centro%20de%20Pruebas%20Vehiculares)
+
 ### 🌳 Decision Trees
 Exploratory projects applying regression and classification trees, including feature importance analysis and model visualization.  
 [View Project](./ML%20y%20Series)
