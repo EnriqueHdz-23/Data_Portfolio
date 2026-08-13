@@ -1,0 +1,93 @@
+{
+  "report_generated_at": "2026-08-13T13:15:36",
+  "primary_test_id": "TEST_001",
+  "safety_thresholds": {
+    "braking_distance_m": 45.0,
+    "city_fuel_consumption_lp100km": 12.0,
+    "brake_disc_temp_c": 350.0
+  },
+  "primary_test_metrics": {
+    "max_decel": -7.936507936509756,
+    "stopping_distance_100_0": 59.721015869614526,
+    "avg_fuel_consumption": 10.165014329557218,
+    "max_brake_temp": 417.9718684523185
+  },
+  "fleet_summary": [
+    {
+      "test_id": "TEST_001",
+      "test_objective": "Braking",
+      "fuel_type": "E10",
+      "ambient_temp_c": 22.0,
+      "tire_pressure_psi": 32,
+      "max_decel_ms2": -7.936507936509756,
+      "stopping_distance_100_0_m": 59.721015869614526,
+      "avg_fuel_consumption_lp100km": 10.165014329557218,
+      "city_fuel_consumption_lp100km": 15.706162010119018,
+      "max_brake_temp_c": 417.9718684523185,
+      "abs_activations": 102,
+      "n_alerts": 3,
+      "alerts": [
+        "WARNING: Braking distance (59.7 m) exceeds safety threshold (45 m). Check brake pads and hydraulic circuit.",
+        "WARNING: High fuel consumption detected at low speeds (15.7 L/100km). Review injection timing or O2 sensors.",
+        "MAINTENANCE: Brake disc temperature reached 418°C at t=353.5s (> 350°C). Flag for brake material inspection (potential brake fade)."
+      ]
+    },
+    {
+      "test_id": "TEST_002",
+      "test_objective": "Fuel_Economy",
+      "fuel_type": "E10",
+      "ambient_temp_c": 28.5,
+      "tire_pressure_psi": 33,
+      "max_decel_ms2": -7.936507936509756,
+      "stopping_distance_100_0_m": 59.749432642393835,
+      "avg_fuel_consumption_lp100km": 10.183055719407626,
+      "city_fuel_consumption_lp100km": 15.718381528078796,
+      "max_brake_temp_c": 418.30165827325436,
+      "abs_activations": 102,
+      "n_alerts": 3,
+      "alerts": [
+        "WARNING: Braking distance (59.7 m) exceeds safety threshold (45 m). Check brake pads and hydraulic circuit.",
+        "WARNING: High fuel consumption detected at low speeds (15.7 L/100km). Review injection timing or O2 sensors.",
+        "MAINTENANCE: Brake disc temperature reached 418°C at t=353.5s (> 350°C). Flag for brake material inspection (potential brake fade)."
+      ]
+    },
+    {
+      "test_id": "TEST_003",
+      "test_objective": "Braking",
+      "fuel_type": "Diesel",
+      "ambient_temp_c": 15.0,
+      "tire_pressure_psi": 30,
+      "max_decel_ms2": -7.936507936509756,
+      "stopping_distance_100_0_m": 59.73817070076312,
+      "avg_fuel_consumption_lp100km": 10.137013939120342,
+      "city_fuel_consumption_lp100km": 15.692767903444333,
+      "max_brake_temp_c": 419.71912173935647,
+      "abs_activations": 102,
+      "n_alerts": 3,
+      "alerts": [
+        "WARNING: Braking distance (59.7 m) exceeds safety threshold (45 m). Check brake pads and hydraulic circuit.",
+        "WARNING: High fuel consumption detected at low speeds (15.7 L/100km). Review injection timing or O2 sensors.",
+        "MAINTENANCE: Brake disc temperature reached 420°C at t=353.5s (> 350°C). Flag for brake material inspection (potential brake fade)."
+      ]
+    },
+    {
+      "test_id": "TEST_004",
+      "test_objective": "Fuel_Economy",
+      "fuel_type": "Diesel",
+      "ambient_temp_c": 33.0,
+      "tire_pressure_psi": 34,
+      "max_decel_ms2": -7.936507936509756,
+      "stopping_distance_100_0_m": 59.70558182345915,
+      "avg_fuel_consumption_lp100km": 10.14590273522473,
+      "city_fuel_consumption_lp100km": 15.685484646522582,
+      "max_brake_temp_c": 436.87445186451066,
+      "abs_activations": 102,
+      "n_alerts": 3,
+      "alerts": [
+        "WARNING: Braking distance (59.7 m) exceeds safety threshold (45 m). Check brake pads and hydraulic circuit.",
+        "WARNING: High fuel consumption detected at low speeds (15.7 L/100km). Review injection timing or O2 sensors.",
+        "MAINTENANCE: Brake disc temperature reached 437°C at t=353.5s (> 350°C). Flag for brake material inspection (potential brake fade)."
+      ]
+    }
+  ]
+}
