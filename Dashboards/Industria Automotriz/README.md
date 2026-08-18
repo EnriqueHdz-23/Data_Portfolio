@@ -2,7 +2,50 @@
 
 This project showcases interactive dashboards and predictive modeling applied to the automotive sector.  
 The focus is on leveraging **public APIs, machine learning models, and synthetic datasets** to explore recalls, resale price predictions, and the global transition to electric vehicles (EVs).  
-These dashboards highlight practical applications of **data visualization, predictive analytics, and industry insights**.
+It also includes advanced **predictive monitoring dashboards** for industrial assets such as conveyor belt networks, highlighting applications of **IoT analytics, health scoring, and maintenance forecasting**.  
+These dashboards demonstrate practical applications of **data visualization, predictive analytics, and industry insights**.  
+
+---
+
+# Predictive Monitoring Dashboard — Conveyor Belt Network
+
+This project simulates a **predictive monitoring and diagnostic system** for conveyor belts in automotive assembly lines.  
+The focus is on transforming raw IIoT sensor data into **actionable intelligence** for early fault detection, asset health scoring, and maintenance planning.
+
+## Objective
+Develop a dashboard that monitors conveyor belt performance and predicts failures by:  
+1. Detecting early degradation (bearing wear, misalignment, jams).  
+2. Quantifying asset health with a **Health Score (0–100%)**.  
+3. Estimating **Remaining Useful Life (RUL)** and suggesting preventive maintenance schedules.  
+4. Calculating **Overall Equipment Effectiveness (OEE)** to prioritize maintenance resources.
+
+## Libraries Used
+- numpy, pandas  
+- plotly (graph_objects, make_subplots, io)  
+- ipywidgets (interactive controls, display)  
+- sqlite3  
+- datetime, warnings, signal processing (rfft, signal)  
+
+## Dataset
+Synthetic dataset simulating an **8-hour production shift**, with sensor readings every **10 seconds** across four conveyor belts.  
+Controlled faults are injected to validate detection capabilities:  
+
+| Conveyor | Failure Time | Failure Type       | Expected Signature                          |
+|----------|--------------|--------------------|---------------------------------------------|
+| B        | Hour 4       | Mechanical jam     | Sharp sustained spike in `Motor_Current_A`  |
+| D        | Hour 6       | Roller misalignment| Spike in `Vibration_Z_ms2` with degradation |
+
+## Main Results
+- Generated reproducible IIoT sensor datasets with realistic fault signatures.  
+- Implemented **Health Score** and **RUL estimation** for each conveyor.  
+- Calculated **OEE metrics** to evaluate overall system efficiency.  
+- Interactive dashboard for real-time monitoring and predictive diagnostics.  
+- Export capability for executive reports in HTML/PDF format.  
+
+## Key Takeaways
+- Demonstrates how **predictive dashboards** can prevent costly downtime in automotive assembly lines.  
+- Combines **signal processing, SQL integration, and visualization** for industrial IoT analytics.  
+- Highlights practical skills in **predictive maintenance, health scoring, and dashboard design** applied to the automotive industry.  
 
 ---
 
