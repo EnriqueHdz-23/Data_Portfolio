@@ -3,7 +3,8 @@
 This project showcases interactive dashboards and predictive modeling applied to the automotive sector.  
 The focus is on leveraging **public APIs, machine learning models, and synthetic datasets** to explore recalls, resale price predictions, and the global transition to electric vehicles (EVs).  
 It also includes advanced **predictive monitoring dashboards** for industrial assets such as conveyor belt networks, highlighting applications of **IoT analytics, health scoring, and maintenance forecasting**.  
-These dashboards demonstrate practical applications of **data visualization, predictive analytics, and industry insights**.  
+Additionally, it features **inventory forecasting and demand management dashboards**, designed to anticipate shortages of critical components and optimize preventive actions.  
+These dashboards demonstrate practical applications of **data visualization, predictive analytics, and industry insights**.   
 
 ---
 
@@ -46,6 +47,46 @@ Controlled faults are injected to validate detection capabilities:
 - Demonstrates how **predictive dashboards** can prevent costly downtime in automotive assembly lines.  
 - Combines **signal processing, SQL integration, and visualization** for industrial IoT analytics.  
 - Highlights practical skills in **predictive maintenance, health scoring, and dashboard design** applied to the automotive industry.  
+
+---
+
+# Inventory Control Dashboard — Demand Forecasting & Critical Component Management
+
+This project implements a **forecast-driven inventory planning system** tailored for the automotive industry.  
+The focus is on transforming demand simulations into actionable insights, ensuring that critical components are available to prevent production line stoppages.
+
+## Objective
+Develop a dashboard that integrates forecasting models with inventory management to:  
+1. Simulate realistic demand patterns with seasonality.  
+2. Manage a master parts catalog in SQLite.  
+3. Apply **Holt-Winters exponential smoothing** for demand forecasting.  
+4. Project inventory levels against `Safety_Stock` and `Reorder_Point`.  
+5. Trigger risk alerts with exact reorder quantities (simplified EOQ).  
+6. Generate executive reports in JSON format.  
+
+## Libraries Used
+- numpy, pandas  
+- sqlite3  
+- plotly (graph_objects, io)  
+- ipywidgets (interactive controls, display)  
+- statsmodels (ExponentialSmoothing)  
+- datetime, json, warnings  
+
+## Dataset
+Synthetic dataset simulating demand for critical automotive components.  
+Data is structured in SQLite tables for parts management, demand history, and inventory projections.  
+
+## Main Results
+- Implemented **forecasting pipeline** with Holt-Winters exponential smoothing.  
+- Generated inventory projections against safety stock and reorder points.  
+- Designed a **traffic-light risk system** to highlight potential shortages.  
+- Automated alerts with recommended reorder quantities (EOQ-based).  
+- Produced executive reports in JSON for decision-making.  
+
+## Key Takeaways
+- Demonstrates how **forecast-driven dashboards** can prevent costly production line stoppages.  
+- Combines **time series forecasting, SQL integration, and visualization** for inventory management.  
+- Highlights practical skills in **predictive analytics, demand planning, and dashboard design** applied to the automotive industry.  
 
 ---
 
