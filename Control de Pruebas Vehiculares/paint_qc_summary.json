@@ -1,0 +1,48 @@
+{
+  "Turno_Inicio": "2026-08-18T06:00:00",
+  "Turno_Duracion_Horas": 8.0,
+  "Booth_Mas_Critico": 1,
+  "Desviacion_Maxima_Detectada_L": 5.674,
+  "Detalle_Por_Cabina": {
+    "1": {
+      "Booth_ID": 1,
+      "Color_Nombre": "Gris Grafito OEM",
+      "Paint_Supplier": "PPG Industries",
+      "CL": 45.203,
+      "UCL": 45.552,
+      "LCL": 44.853,
+      "Desviacion_Maxima_L": 5.674,
+      "FTT_Ultima_Hora_pct": 0.0,
+      "Alertas_Activas": [
+        "⚠️ SPC ALERT - Booth 1 shows systematic drift in L value. Potential clogging in rotary bell. Inspect nozzles immediately.",
+        "🔧 MAINTENANCE REPORT - Booth 1 FTT at 0.0% (below 90% threshold). Recommend air filter replacement in booth ventilation system."
+      ],
+      "Total_Mediciones": 96
+    },
+    "2": {
+      "Booth_ID": 2,
+      "Color_Nombre": "Azul Nocturno OEM",
+      "Paint_Supplier": "Axalta Coating Systems",
+      "CL": 38.663,
+      "UCL": 39.149,
+      "LCL": 38.177,
+      "Desviacion_Maxima_L": 3.907,
+      "FTT_Ultima_Hora_pct": 100.0,
+      "Alertas_Activas": [],
+      "Total_Mediciones": 96
+    },
+    "3": {
+      "Booth_ID": 3,
+      "Color_Nombre": "Plata Ártico OEM",
+      "Paint_Supplier": "BASF Coatings",
+      "CL": 52.39,
+      "UCL": 52.918,
+      "LCL": 51.862,
+      "Desviacion_Maxima_L": 3.766,
+      "FTT_Ultima_Hora_pct": 100.0,
+      "Alertas_Activas": [],
+      "Total_Mediciones": 96
+    }
+  },
+  "Generado_En": "2026-08-18T14:56:12.704407"
+}
